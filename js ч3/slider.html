@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>slider</title>
+    <link rel="stylesheet" href="slider.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <script defer src="slider.js"></script>
+</head>
+<body>
+    <main>
+        <div class="main__section">
+            <div class="section__block_left">
+                <div class="section__leftblock_up">
+                    <h2 class="section2__h2">Completed<br>projects</h2>
+                    <p class="section__p_14px">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction<br> 
+                         market we have made happy more than 1000 families</p>
+                </div>
+                        <div class="section__leftblock_mid">
+                            <div class="section__leftblock_mini">
+                                <h3 class="section2__h_mini">City:</h3>
+                                <p class="section2__p_mini"><span id="text1">Rostov-on-Don</span><br><span id="text4">LCD admiral</span></p>
+                            </div>
+                            <div class="section2__leftblock_mini">
+                                <h3 class="section2__h_mini">apartment area:</h3>
+                                <p id="text2" class="section2__p_mini">81 m2</p>
+                            </div>
+                            <div class="section2__leftblock_mini">
+                                <h3 class="section2__h_mini">Repair time:</h3>
+                                <p id="text3" class="section2__p_mini">3.5 months</p>
+                            </div>
+                            <div class="section2__leftblock_mini">
+                                <h3 class="section2__h_mini">Repair Cost:</h3>
+                                <p class="section2__p_mini">Upon request</p>
+                            </div>
+                        </div>
+                        <div class="section2__leftblock_bottom">
+                            <button id="prev" class="section2__button_arrow" type="button">
+                                <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.63807 13.276L2.29917e-05 6.638L6.63807 -3.82298e-05L7.58563 0.94753L1.89516 6.638L7.58563 12.3285L6.63807 13.276Z" fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.947579 5.9681L41.4556 5.9681L41.4556 7.30817L0.947578 7.30816L0.947579 5.9681Z" fill="white" />
+                                </svg>
+                            </button>
+                            <div class="section2_points">
+                                <div class="dots"></div> 
+                                <div class="dots"></div> 
+                                <div class="dots"></div> 
+                            </div>
+                            <button id="next" class="section2__button_arrow" type="button">
+                                <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M35.0451 -0.000183105L41.6831 6.63786L35.0451 13.2759L34.0975 12.3283L39.788 6.63786L34.0975 0.947384L35.0451 -0.000183105Z" fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M40.7356 7.30776L0.227569 7.30776L0.22757 5.9677L40.7356 5.9677L40.7356 7.30776Z" fill="white" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                     <div class="section2__block_right">
+                    <ul class="section2__ul">
+                        <li class="section2__link">
+                            <a data-slide="0" href="#" class="section2__li_a" >
+                                Rostov-on-Don, Admiral
+                            </a>
+                        </li>
+                        <li class="section2__link">
+                            <a  href="#" data-slide="1" class="section2__li_a">
+                                Sochi Thieves
+                            </a>
+                        </li>
+                        <li   class="section2__link">
+                            <a  href="#" data-slide="2" class="section2__li_a">
+                            Rostov-on-Don Patriotic 
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="image" style="width: 679px; height: 482px; background-size:cover; background-image: url(IMG/1.png) ;"></div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
